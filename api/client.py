@@ -24,3 +24,7 @@ input_text2 = st.text_input("Write a poem on")
 #     st.write(get_openai_response(input_text1))
 if input_text2:
     st.write(get_ollama_response(input_text2))
+
+"""
+Command: streamlit run client.py
+"""
