@@ -25,6 +25,4 @@ input_text2 = st.text_input("Write a poem on")
 if input_text2:
     st.write(get_ollama_response(input_text2))
 
-"""
-Command: streamlit run client.py
-"""
+### Command: streamlit run client.py
